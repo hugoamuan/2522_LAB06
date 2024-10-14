@@ -1,8 +1,19 @@
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Demonstrates adding and managing different types of literature
+ * (ComicBooks, Magazines, Novels) in a BookStore.
+ * @author Mitchell MacDonald and Hugo Amuan.
+ * @version 1.0
+ */
 public class Main {
 
+    /**
+     * Main method that initializes lists of various literature types,
+     * adds them to a BookStore, and prints the items and titles.
+     *
+     * @param args command-line arguments (unused)
+     */
     public static void main(String[] args) {
 
         List<ComicBook> comicList = new ArrayList<ComicBook>();
