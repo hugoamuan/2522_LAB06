@@ -25,7 +25,7 @@ public class Novel extends Literature {
      * @return the title of the novel
      */
     @Override
-    public String getTitle() {
+    public final String getTitle() {
         return title;
     }
 
@@ -36,7 +36,7 @@ public class Novel extends Literature {
      * @return a formatted string containing the novel's details
      */
     @Override
-    public String toString() {
+    public final String toString() {
         return String.format("Title: %s", title);
     }
 
